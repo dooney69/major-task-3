@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(to bottom, rgba(5, 4, 4, 0.651), rgba(33, 252, 33, 0.603));
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+h2{
+    text-transform: uppercase;
+    margin-bottom: 20px;
+
+}
+
+.container{
+    margin: auto;
+    width: 50%;
+    margin-top: 150px;
+    padding-left: 200px;
+}
+.input{
+    margin-bottom: 40px;
+    
+}
+.inputs{
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+#hoursworked,
+#extrahour{
+    height: 30px;
+    border-radius: 10px;
+}
+button{
+    border-radius: 10px;
+    color: rgba(33, 252, 33, 0.603);
+    background-color: rgba(5, 4, 4, 0.651);
+    cursor: pointer;
+    width: 90px;
+    text-align: center;
+    height: 40px;
+}
